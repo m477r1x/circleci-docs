@@ -3,6 +3,7 @@ import highlightjsBadge from './highlightJSBadge';
 import relatedResources from './relatedResources';
 import surfaceFullExampleConfig from './surfaceFullExampleConfig';
 import videoTutorials from './videoTutorials';
+import snippetFeedback from './snippetFeedback';
 
 export default {
   forceAll,
@@ -10,4 +11,5 @@ export default {
   relatedResources,
   surfaceFullExampleConfig,
   videoTutorials,
+  snippetFeedback,
 };
