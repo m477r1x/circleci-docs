@@ -507,12 +507,37 @@ h6{
 }
 
 
-/*
-*  Experiment Key: dd_add_copy_code_button_to_docs
-*  https://app.optimizely.com/v2/projects/16812830475/experiments/20580130094/variations
-*/
+.code-badge {
+	opacity: 0!important;
+	border-radius: 7px!important;
+	margin: 5px;
+	background: #EDEDED!important;
+	color: black!important;
+}
+
+#code-badge-clicked {
+	background: #E3E3E3!important;
+}
+
+
+.fa-copy:before {
+	font-weight: bold!important;
+}
+
+.fa-check:before {
+	border-radius: 10px;
+	background: black;
+	color: #E3E3E3!important;
+}
+
+.highlight:hover {
+	.code-badge {
+		opacity: 1!important;
+	}
+}
+
 .code-badge-language {
-	display: none
+	display: none;
 }
 
 /*
