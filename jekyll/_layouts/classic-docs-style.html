@@ -8,7 +8,7 @@
 
 <div class="outer">
   {% assign lang = page.lang %}
-  {% assign sidenav = site.data.sidenav[lang] %}
+  {% assign sidenav = site.data.sidenavstyle[lang] %}
   {% include_cached global-nav.html site=site page=page lang=lang sidenav=sidenav %}
   {% include_cached hits-target.html %}
   <div class="main-body">
